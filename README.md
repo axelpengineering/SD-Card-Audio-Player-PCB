@@ -74,7 +74,7 @@ Once the breadboard prototype was validated, the circuit was recreated as an ele
 The schematic defined the electrical connections between the ESP32, audio playback components, user inputs, power connections, and supporting circuitry.
 
 <p align="center">
-  <img src="pcb_schematic.PNG" width="400" height="400">
+  <img src="pcb_schematic.png" width="400" height="400">
 </p>
 
 ---
