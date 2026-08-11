@@ -107,7 +107,7 @@ After the PCB was manufactured, the electrical components were manually installe
 The assembled board was then inspected, tested for electrical continuity, and connected to the ESP32 and other system components.
 
 <p align="center">
-  <img src="soldering.JPG" width="300" height="300">
+  <img src="soldering.JPEG" width="300" height="300">
 </p>
 
 ---
