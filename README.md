@@ -1,27 +1,28 @@
 # ⚡ SD Card Audio Player PCB
 
-Custom-designed ESP32-based audio playback system capable of playing stored audio tracks from an SD card through user-controlled button inputs.
+Custom-designed ESP32-based audio playback system capable of playing audio tracks stored on an SD card through physical user button inputs.
 
 ---
 
 ## 📐 Overview
 
-This project involved the complete development of an embedded audio playback system, including circuit design, microcontroller programming, PCB development, assembly, and hardware testing.
+This project involved the complete development of an embedded audio playback system, progressing from breadboard prototyping to a custom-designed and physically assembled PCB.
 
-An ESP32 was programmed in C++ using the Arduino IDE to process physical button inputs and control SD-card-based audio playback. The supporting electrical circuit was initially developed and tested before being transferred into a custom PCB designed in KiCad.
+An ESP32 was programmed in C++ using the Arduino IDE to process physical button inputs and control SD-card-based audio playback. The electrical circuit was first designed and tested on a breadboard before being transferred into a custom PCB using KiCad.
 
 The final PCB was manufactured, manually soldered, assembled, and tested as a complete embedded system.
 
 ### Key Objectives
 
 - Design a functional SD-card-based audio playback circuit
+- Breadboard prototype and validate the circuit
 - Program an ESP32 to control system behaviour
 - Process user inputs through physical push buttons
-- Implement audio playback control using Arduino/C++
-- Develop the circuit schematic in KiCad
+- Implement audio playback using C++ and the Arduino IDE
+- Develop a complete electrical schematic in KiCad
 - Design and route a custom PCB
 - Assemble and solder the manufactured PCB
-- Test and debug the completed embedded system
+- Test and debug the completed hardware and software
 
 ---
 
@@ -31,9 +32,22 @@ The final PCB was manufactured, manually soldered, assembled, and tested as a co
 - Arduino IDE
 - C++
 - ESP32
+- Breadboard prototyping
 - Soldering equipment
 - Digital multimeter
-- Breadboard and prototyping equipment
+- Electronic components and wiring
+
+---
+
+## 🔌 Breadboard Prototyping
+
+The circuit was initially assembled and tested on a breadboard before committing the design to a PCB.
+
+This allowed the electrical connections, button inputs, ESP32 firmware, and audio playback functionality to be tested and debugged early in the development process.
+
+<p align="center">
+  <img src="breadboard.JPG" width="300" height="300">
+</p>
 
 ---
 
@@ -44,65 +58,89 @@ The ESP32 served as the primary controller for the system.
 Custom firmware was written in C++ using the Arduino IDE to:
 
 - Read physical push-button inputs
-- Execute user-triggered playback commands
-- Interface with the audio playback hardware
-- Control playback of tracks stored on the SD card
-- Coordinate the behaviour of the overall system
-- Support testing and debugging of the completed hardware
+- Process user commands
+- Control audio playback
+- Select audio tracks stored on the SD card
+- Interface with the playback hardware
+- Coordinate overall system behaviour
+- Support hardware testing and debugging
 
 ---
 
-## 🔌 System Design
+## 🧾 PCB Schematic
 
-The system was designed around an ESP32 microcontroller that processed user inputs and controlled audio playback from an SD card.
+Once the breadboard prototype was validated, the circuit was recreated as an electrical schematic in KiCad.
 
-The project progressed through several stages:
+The schematic defined the electrical connections between the ESP32, audio playback components, user inputs, power connections, and supporting circuitry.
 
-1. Circuit design and component selection
-2. Breadboard prototyping and electrical testing
-3. ESP32 firmware development
-4. Button input integration
-5. SD-card audio playback integration
-6. Schematic development in KiCad
-7. PCB component placement and trace routing
-8. PCB manufacturing
-9. Manual soldering and assembly
-10. Hardware and software debugging
-11. Final system testing
+<p align="center">
+  <img src="pcb_schematic.PNG" width="400" height="400">
+</p>
 
 ---
 
 ## 🖥️ PCB Design
 
-After validating the circuit, the electrical design was transferred into KiCad.
+The completed schematic was converted into a custom PCB layout in KiCad.
 
-The PCB development process included:
+The PCB design process included:
 
-- Creating the electrical schematic
 - Assigning component footprints
-- Positioning components
-- Routing signal and power traces
-- Managing electrical connections
+- Component placement
+- Routing signal traces
+- Routing power connections
+- Organizing board geometry
+- Checking electrical connectivity
 - Performing design-rule checks
-- Preparing manufacturing files
+- Preparing the board for manufacturing
 
-The custom PCB provided a cleaner, more compact, and more permanent implementation than the original prototype.
+<p align="center">
+  <img src="pcb_design.PNG" width="400" height="400">
+</p>
 
 ---
 
-## 🔧 PCB Assembly
+## 🔧 PCB Assembly & Soldering
 
-After fabrication, the PCB was manually assembled and soldered.
+After the PCB was manufactured, the electrical components were manually installed and soldered onto the board.
 
-Assembly and validation included:
+The assembled board was then inspected, tested for electrical continuity, and connected to the ESP32 and other system components.
 
-- Installing electrical components
-- Soldering board connections
-- Inspecting solder joints
-- Checking continuity
-- Connecting external components
-- Uploading and testing ESP32 firmware
-- Debugging button inputs and audio playback
+<p align="center">
+  <img src="soldering.JPG" width="300" height="300">
+</p>
+
+---
+
+## ⚡ Completed PCB
+
+The finished PCB provided a compact and permanent implementation of the original breadboard prototype.
+
+The final system combined the custom PCB, ESP32 firmware, physical user controls, and SD-card-based audio playback into a functional embedded system.
+
+<p align="center">
+  <img src="completed_pcb.JPG" width="350" height="350">
+</p>
+
+---
+
+## 🔄 Development Process
+
+The project followed an end-to-end electronics development workflow:
+
+1. Circuit concept and component selection
+2. Breadboard prototyping
+3. ESP32 firmware development
+4. Button input integration
+5. SD-card audio playback testing
+6. KiCad schematic development
+7. PCB component placement
+8. PCB trace routing
+9. Design-rule verification
+10. PCB manufacturing
+11. Manual soldering and assembly
+12. Hardware/software debugging
+13. Final system testing
 
 ---
 
@@ -112,6 +150,7 @@ Assembly and validation included:
 - ESP32 programming
 - C++ / Arduino
 - Circuit design
+- Breadboard prototyping
 - PCB schematic capture
 - PCB layout and routing
 - KiCad
@@ -126,6 +165,18 @@ Assembly and validation included:
 
 ## ✅ Project Outcome
 
-The project progressed from an initial circuit concept to a custom-designed and physically assembled embedded system.
+The project successfully progressed from an initial breadboard prototype to a custom-designed and physically assembled embedded system.
 
-The final system combined custom ESP32 firmware, user-input processing, SD-card-based audio playback, and a purpose-built PCB. Developing the project required integrating embedded programming, circuit design, PCB development, soldering, and hardware debugging into a complete electronics development workflow.
+Developing the system required integrating circuit design, ESP32 programming, PCB schematic development, board layout, manufacturing, soldering, and hardware debugging. The completed project demonstrated the full electronics development process from initial prototyping through final hardware implementation.
+
+---
+
+## 📁 Repository Contents
+
+| File / Folder | Description |
+| ------------- | ----------- |
+| `README.md` | Project overview and documentation |
+| `KiCad/` | KiCad schematic and PCB design files |
+| `Code/` | ESP32 firmware and Arduino code |
+| `Images/` | Project development and assembly images |
+| `Gerbers/` | PCB manufacturing files |
