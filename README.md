@@ -95,7 +95,7 @@ The PCB design process included:
 - Preparing the board for manufacturing
 
 <p align="center">
-  <img src="pcb_design.PNG" width="400" height="400">
+  <img src="pcb_design.png" width="400" height="400">
 </p>
 
 ---
