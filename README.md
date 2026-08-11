@@ -46,7 +46,7 @@ The circuit was initially assembled and tested on a breadboard before committing
 This allowed the electrical connections, button inputs, ESP32 firmware, and audio playback functionality to be tested and debugged early in the development process.
 
 <p align="center">
-  <img src="breadboard.JPG" width="300" height="300">
+  <img src="breadboard.JPEG" width="300" height="300">
 </p>
 
 ---
@@ -119,7 +119,7 @@ The finished PCB provided a compact and permanent implementation of the original
 The final system combined the custom PCB, ESP32 firmware, physical user controls, and SD-card-based audio playback into a functional embedded system.
 
 <p align="center">
-  <img src="completed_pcb.JPG" width="350" height="350">
+  <img src="completed_pcb.JPEG" width="350" height="350">
 </p>
 
 ---
