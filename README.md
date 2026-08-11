@@ -107,7 +107,7 @@ After the PCB was manufactured, the electrical components were manually installe
 The assembled board was then inspected, tested for electrical continuity, and connected to the ESP32 and other system components.
 
 <p align="center">
-  <img src="soldering.JPEG" width="300" height="300">
+  <img src="soldering.JPEG" width="275" height="350">
 </p>
 
 ---
@@ -119,7 +119,7 @@ The finished PCB provided a compact and permanent implementation of the original
 The final system combined the custom PCB, ESP32 firmware, physical user controls, and SD-card-based audio playback into a functional embedded system.
 
 <p align="center">
-  <img src="completed_pcb.JPEG" width="350" height="350">
+  <img src="completed_pcb.JPEG" width="275" height="350">
 </p>
 
 ---
