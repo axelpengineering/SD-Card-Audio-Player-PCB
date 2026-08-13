@@ -46,7 +46,7 @@ The circuit was initially assembled and tested on a breadboard before committing
 This allowed the electrical connections, button inputs, ESP32 firmware, and audio playback functionality to be tested and debugged early in the development process.
 
 <p align="center">
-  <img src="Images/breadboard.JPEG" width="275" height="350">
+  <img src="https://raw.githubusercontent.com/axelpengineering/SD-Card-Audio-Player-PCB/main/Images/breadboard.JPEG" width="275">
 </p>
 
 ---
@@ -74,7 +74,7 @@ Once the breadboard prototype was validated, the circuit was recreated as an ele
 The schematic defined the electrical connections between the ESP32, audio playback components, user inputs, power connections, and supporting circuitry.
 
 <p align="center">
-  <img src="pcb_schematic.png" width="400" height="400">
+  <img src="https://raw.githubusercontent.com/axelpengineering/SD-Card-Audio-Player-PCB/main/Images/pcb_schematic.png" width="700">
 </p>
 
 ---
@@ -95,7 +95,7 @@ The PCB design process included:
 - Preparing the board for manufacturing
 
 <p align="center">
-  <img src="pcb_design.png" width="400" height="400">
+  <img src="https://raw.githubusercontent.com/axelpengineering/SD-Card-Audio-Player-PCB/main/Images/pcb_design.png" width="700">
 </p>
 
 ---
@@ -107,7 +107,7 @@ After the PCB was manufactured, the electrical components were manually installe
 The assembled board was then inspected, tested for electrical continuity, and connected to the ESP32 and other system components.
 
 <p align="center">
-  <img src="soldering.JPEG" width="275" height="350">
+  <img src="https://raw.githubusercontent.com/axelpengineering/SD-Card-Audio-Player-PCB/main/Images/soldering.JPEG" width="275">
 </p>
 
 ---
@@ -119,7 +119,7 @@ The finished PCB provided a compact and permanent implementation of the original
 The final system combined the custom PCB, ESP32 firmware, physical user controls, and SD-card-based audio playback into a functional embedded system.
 
 <p align="center">
-  <img src="completed_pcb.JPEG" width="275" height="350">
+  <img src="https://raw.githubusercontent.com/axelpengineering/SD-Card-Audio-Player-PCB/main/Images/completed_pcb.JPEG" width="275">
 </p>
 
 ---
